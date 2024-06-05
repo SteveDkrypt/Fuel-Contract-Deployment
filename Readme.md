@@ -9,8 +9,6 @@
 
 
 ##Install Dependencies  ---- 
-
-```
 sudo apt update
 sudo apt upgrade -y
 sudo apt-get install curl screen -y 
@@ -18,9 +16,7 @@ sudo apt-get install curl screen -y
 ![image](https://github.com/mztacat/Fuel-Contract-Deployment/assets/31314340/f9fb26d5-3d76-4349-855a-3fba14179514)
 
 
-## Installing RUST 
 
-```
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 rustc --version
